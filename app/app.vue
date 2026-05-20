@@ -10,16 +10,19 @@
       <section class="profile">
         <div class="avatar-ring">
           <div class="avatar">
-            <!-- Ganti src dengan path foto kamu, atau hapus tag img untuk pakai inisial -->
-            <span class="avatar-initials">{{ initials }}</span>
+            <img :src="logo" alt="Logo" class="w-full h-full object-cover rounded-full" />
           </div>
         </div>
         <h1 class="name">SMK Tamansiswa Jetis - Yogyakarta</h1>
-        <p class="username">@namakamu</p>
-        <p class="bio">Desainer · Developer · Kreator konten digital yang suka eksplorasi hal-hal baru 🌿</p>
+        <p class="bio">Desainer · Developer · Engginer</p>
         <div class="badges">
-          <span class="badge">Available for work</span>
-          <span class="badge">Yogyakarta, ID</span>
+          <span class="badge">Desain Komunikasi Visual</span>
+          <span class="badge">Rekayasa Perangkat Lunak</span>
+          <span class="badge">Teknik Instalasi Tenaga Listrik</span>
+          <span class="badge">Teknik Kendaraan Ringan</span>
+          <span class="badge">Teknik Sepeda Motor</span>
+          <span class="badge">SMK Pusat Keunggulan</span>
+          <span class="badge">Teaching Factory</span>
         </div>
       </section>
 
@@ -28,38 +31,28 @@
 
       <section class="links">
 
-        <a href="https://instagram.com/username" target="_blank" rel="noopener" class="link-card secondary">
+        <a href="https://www.instagram.com/smktamsisjetis_yk/" target="_blank" rel="noopener"
+          class="link-card secondary">
           <span class="link-icon">📸</span>
           <span class="link-label">Instagram</span>
-          <span class="link-tag">Follow</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="https://tiktok.com/@username" target="_blank" rel="noopener" class="link-card secondary">
+        <a href="https://www.tiktok.com/@smktamansiswajetisyk" target="_blank" rel="noopener"
+          class="link-card secondary">
           <span class="link-icon">🎵</span>
           <span class="link-label">TikTok</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="https://youtube.com/@username" target="_blank" rel="noopener" class="link-card secondary">
+        <a href="https://www.youtube.com/channel/UCNlnrmRvfH4XsJsjp7XUO1w" target="_blank" rel="noopener"
+          class="link-card secondary">
           <span class="link-icon">▶️</span>
           <span class="link-label">YouTube</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="https://github.com/username" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">💻</span>
-          <span class="link-label">GitHub</span>
-          <span class="link-arrow">↗</span>
-        </a>
-
-        <a href="https://linkedin.com/in/username" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">💼</span>
-          <span class="link-label">LinkedIn</span>
-          <span class="link-arrow">↗</span>
-        </a>
-
-        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="link-card secondary">
+        <a href="https://wa.me/6288232128784" target="_blank" rel="noopener" class="link-card secondary">
           <span class="link-icon">💬</span>
           <span class="link-label">WhatsApp</span>
           <span class="link-arrow">↗</span>
@@ -68,7 +61,7 @@
       </section>
 
       <footer class="footer">
-        <span>Dibuat dengan ♡ · {{ new Date().getFullYear() }}</span>
+        <span>Copyright · {{ new Date().getFullYear() }}</span>
       </footer>
 
     </main>
@@ -77,6 +70,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import logo from '~/assets/img/logo.webp'
 
 // ──────────────────────────────────────────────────────────
 //  GANTI NAMA DI SINI untuk inisial avatar fallback
