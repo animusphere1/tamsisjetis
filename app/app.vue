@@ -14,7 +14,7 @@
           </div>
         </div>
         <h1 class="name">SMK Tamansiswa Jetis - Yogyakarta</h1>
-        <p class="bio">Desainer · Developer · Engginer</p>
+        <p class="bio">Desainer · Developer · Engineer</p>
         <div class="badges">
           <span class="badge">Desain Komunikasi Visual</span>
           <span class="badge">Rekayasa Perangkat Lunak</span>
