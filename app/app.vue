@@ -61,7 +61,7 @@
       </section>
 
       <footer class="footer">
-        <span>Copyright · {{ new Date().getFullYear() }}</span>
+        <span>Copyright RPL Team· {{ new Date().getFullYear() }}</span>
       </footer>
 
     </main>
