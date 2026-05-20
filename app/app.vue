@@ -82,7 +82,7 @@ const initials = computed(() =>
 )
 
 useHead({
-  title: `${namaLengkap} — Links`,
+  title: `${namaLengkap} — Yogyakarta`,
   meta: [{ name: 'description', content: 'Semua link dalam satu tempat.' }],
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
