@@ -31,15 +31,14 @@
 
       <section class="links">
 
-        <a href="https://ppdb.smktamsis-yk.com/" target="_blank" rel="noopener"
-          class="link-card danger important-link">
+        <a href="https://ppdb.smktamsis-yk.com/" target="_blank" rel="noopener" class="link-card danger important-link">
           <span class="link-icon">🚨</span>
 
           <div class="flex flex-col text-left">
             <span class="link-label">Pendaftaran SPMB</span>
           </div>
 
-         
+
 
           <!-- efek glow -->
           <span class="pulse-ring"></span>
@@ -99,6 +98,7 @@ useHead({
   title: `${namaLengkap} — Yogyakarta`,
   meta: [{ name: 'description', content: 'Semua link dalam satu tempat.' }],
   link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap' },
@@ -617,12 +617,10 @@ img {
   inset: 0;
 
   background:
-    linear-gradient(
-      120deg,
+    linear-gradient(120deg,
       transparent 20%,
-      rgba(255,255,255,0.35) 50%,
-      transparent 80%
-    );
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 80%);
 
   transform: translateX(-150%) skewX(-20deg);
 
@@ -642,7 +640,7 @@ img {
   justify-content: center;
 
   background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255,255,255,0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
 
   backdrop-filter: blur(10px);
 
@@ -652,8 +650,8 @@ img {
   font-size: 1.25rem;
 
   box-shadow:
-    0 0 12px rgba(255,255,255,0.25),
-    0 4px 14px rgba(0,0,0,0.25);
+    0 0 12px rgba(255, 255, 255, 0.25),
+    0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 /* icon SVG */
