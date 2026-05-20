@@ -119,7 +119,7 @@ import { computed } from 'vue'
 // ──────────────────────────────────────────────────────────
 //  GANTI NAMA DI SINI untuk inisial avatar fallback
 // ──────────────────────────────────────────────────────────
-const namaLengkap = 'Nama Kamu'
+const namaLengkap = 'SMK Tamansiswa Jetis'
 
 const initials = computed(() =>
   namaLengkap.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()
