@@ -14,7 +14,7 @@
             <span class="avatar-initials">{{ initials }}</span>
           </div>
         </div>
-        <h1 class="name">Nama Kamu</h1>
+        <h1 class="name">SMK Tamansiswa Jetis - Yogyakarta</h1>
         <p class="username">@namakamu</p>
         <p class="bio">Desainer · Developer · Kreator konten digital yang suka eksplorasi hal-hal baru 🌿</p>
         <div class="badges">
