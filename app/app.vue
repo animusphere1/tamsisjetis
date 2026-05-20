@@ -24,83 +24,45 @@
       </section>
 
       <!-- ── LINK CARDS ── -->
+
+
       <section class="links">
 
-        <a href="" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">🌿</span>
-          <span class="link-label">Portfolio &amp; Karya</span>
-          <span class="link-tag">Featured</span>
+        <a href="https://instagram.com/username" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">📸</span>
+          <span class="link-label">Instagram</span>
+          <span class="link-tag">Follow</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <!-- Tipe: secondary (transparan subtle) -->
-        <a href="" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">📝</span>
-          <span class="link-label">Blog &amp; Tulisan</span>
+        <a href="https://tiktok.com/@username" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">🎵</span>
+          <span class="link-label">TikTok</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">🤝</span>
-          <span class="link-label">Jasa &amp; Kolaborasi</span>
+        <a href="https://youtube.com/@username" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">▶️</span>
+          <span class="link-label">YouTube</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">⚡</span>
-          <span class="link-label">GitHub — Proyek Open Source</span>
+        <a href="https://github.com/username" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">💻</span>
+          <span class="link-label">GitHub</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="" target="_blank" rel="noopener" class="link-card secondary">
-          <span class="link-icon">💌</span>
-          <span class="link-label">Newsletter Mingguan</span>
+        <a href="https://linkedin.com/in/username" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">💼</span>
+          <span class="link-label">LinkedIn</span>
           <span class="link-arrow">↗</span>
         </a>
 
-        <a href="" class="link-card secondary">
-          <span class="link-icon">✉️</span>
-          <span class="link-label">Hubungi Saya</span>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="link-card secondary">
+          <span class="link-icon">💬</span>
+          <span class="link-label">WhatsApp</span>
           <span class="link-arrow">↗</span>
-        </a>
-      </section>
-
-      <!-- ── SOSIAL MEDIA ── -->
-      <section class="socials">
-
-        <a href="https://instagram.com/namakamu" target="_blank" rel="noopener" class="social-btn" title="Instagram">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="2" width="20" height="20" rx="5"/>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-          </svg>
-        </a>
-
-        <a href="https://twitter.com/namakamu" target="_blank" rel="noopener" class="social-btn" title="X / Twitter">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-        </a>
-
-        <a href="https://linkedin.com/in/namakamu" target="_blank" rel="noopener" class="social-btn" title="LinkedIn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-            <rect x="2" y="9" width="4" height="12"/>
-            <circle cx="4" cy="4" r="2"/>
-          </svg>
-        </a>
-
-        <a href="https://youtube.com/@namakamu" target="_blank" rel="noopener" class="social-btn" title="YouTube">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
-            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
-          </svg>
-        </a>
-
-        <a href="https://tiktok.com/@namakamu" target="_blank" rel="noopener" class="social-btn" title="TikTok">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
-          </svg>
         </a>
 
       </section>
@@ -138,7 +100,9 @@ useHead({
 
 <style>
 /* ── Reset ─────────────────────────────────────────── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -414,12 +378,29 @@ img {
 }
 
 /* Delay animasi per kartu (stagger manual) */
-.links .link-card:nth-child(1) { animation-delay: 0.05s; }
-.links .link-card:nth-child(2) { animation-delay: 0.10s; }
-.links .link-card:nth-child(3) { animation-delay: 0.15s; }
-.links .link-card:nth-child(4) { animation-delay: 0.20s; }
-.links .link-card:nth-child(5) { animation-delay: 0.25s; }
-.links .link-card:nth-child(6) { animation-delay: 0.30s; }
+.links .link-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.links .link-card:nth-child(2) {
+  animation-delay: 0.10s;
+}
+
+.links .link-card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.links .link-card:nth-child(4) {
+  animation-delay: 0.20s;
+}
+
+.links .link-card:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+.links .link-card:nth-child(6) {
+  animation-delay: 0.30s;
+}
 
 /* ── Sosial Media ────────────────────────────────────── */
 .socials {
@@ -467,6 +448,7 @@ img {
     opacity: 0;
     transform: translateY(16px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
