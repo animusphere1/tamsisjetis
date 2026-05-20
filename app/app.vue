@@ -31,6 +31,20 @@
 
       <section class="links">
 
+        <a href="https://ppdb.smktamsis-yk.com/" target="_blank" rel="noopener"
+          class="link-card danger important-link">
+          <span class="link-icon">🚨</span>
+
+          <div class="flex flex-col text-left">
+            <span class="link-label">Pendaftaran SPMB</span>
+          </div>
+
+         
+
+          <!-- efek glow -->
+          <span class="pulse-ring"></span>
+        </a>
+
         <a href="https://www.instagram.com/smktamsisjetis_yk/" target="_blank" rel="noopener"
           class="link-card secondary">
           <span class="link-icon">📸</span>
@@ -318,6 +332,10 @@ img {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.link-card.secondary {
+  background: rgba(255, 255, 255, 0.04);
+}
+
 .link-card.accent {
   background: rgba(61, 202, 106, 0.08);
   border-color: rgba(61, 202, 106, 0.2);
@@ -467,5 +485,194 @@ img {
     width: 78px;
     height: 78px;
   }
+}
+
+.important-link {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 16px 20px;
+  border-radius: 18px;
+
+  background: linear-gradient(135deg, #ff2d55, #ff7a00);
+  color: white;
+
+  font-weight: 700;
+  letter-spacing: 0.3px;
+
+  box-shadow:
+    0 0 0 rgba(255, 45, 85, 0.4),
+    0 10px 30px rgba(255, 45, 85, 0.35);
+
+  animation: blinkGlow 1.5s infinite;
+  transition: all 0.3s ease;
+}
+
+.important-link:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow:
+    0 0 25px rgba(255, 45, 85, 0.7),
+    0 15px 40px rgba(255, 45, 85, 0.45);
+}
+
+/* animasi berkedip */
+@keyframes blinkGlow {
+  0% {
+    opacity: 1;
+    box-shadow:
+      0 0 10px rgba(255, 45, 85, 0.4),
+      0 0 25px rgba(255, 45, 85, 0.25);
+  }
+
+  50% {
+    opacity: 0.88;
+    box-shadow:
+      0 0 25px rgba(255, 45, 85, 0.9),
+      0 0 45px rgba(255, 45, 85, 0.6);
+  }
+
+  100% {
+    opacity: 1;
+    box-shadow:
+      0 0 10px rgba(255, 45, 85, 0.4),
+      0 0 25px rgba(255, 45, 85, 0.25);
+  }
+}
+
+/* ring animasi */
+.pulse-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  animation: pulseRing 2s infinite;
+  pointer-events: none;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1.08);
+    opacity: 0;
+  }
+}
+
+/* icon lebih hidup */
+.link-icon {
+  font-size: 1.3rem;
+  animation: wiggle 2s infinite;
+}
+
+@keyframes wiggle {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+.link-card.danger {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    linear-gradient(135deg,
+      #ff003c 0%,
+      #ff4d00 35%,
+      #ffb300 100%);
+
+  border: 1px solid rgba(255, 180, 80, 0.7);
+
+  color: #fff;
+
+  box-shadow:
+    0 0 20px rgba(255, 0, 60, 0.45),
+    0 0 45px rgba(255, 120, 0, 0.35),
+    0 12px 35px rgba(0, 0, 0, 0.45);
+
+  animation: dangerPulse 1.8s infinite ease-in-out;
+
+  transform-origin: center;
+}
+
+/* glow bergerak */
+.link-card.danger::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      120deg,
+      transparent 20%,
+      rgba(255,255,255,0.35) 50%,
+      transparent 80%
+    );
+
+  transform: translateX(-150%) skewX(-20deg);
+
+  animation: dangerShine 3s infinite;
+}
+
+/* efek hover */
+.link-card.danger .link-icon {
+  position: relative;
+  z-index: 2;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255,255,255,0.35);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 12px;
+
+  color: #ffffff;
+  font-size: 1.25rem;
+
+  box-shadow:
+    0 0 12px rgba(255,255,255,0.25),
+    0 4px 14px rgba(0,0,0,0.25);
+}
+
+/* icon SVG */
+.link-card.danger .link-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke: white;
+  fill: none;
+  stroke-width: 2.2;
+}
+
+/* supaya teks & arrow di atas shimmer */
+.link-card.danger .link-label,
+.link-card.danger .link-arrow {
+  position: relative;
+  z-index: 2;
+}
+
+.link-card.danger::before {
+  z-index: 1;
 }
 </style>
