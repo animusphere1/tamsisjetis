@@ -432,7 +432,7 @@ img {
 /* ── Footer ──────────────────────────────────────────── */
 .footer {
   font-size: 0.76rem;
-  color: #3d5e42;
+  color: #ffffff;
   animation: fadeUp 0.6s ease 0.45s both;
 }
 
