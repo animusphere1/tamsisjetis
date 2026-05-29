@@ -31,15 +31,12 @@
 
       <section class="links">
 
-        <a href="https://ppdb.smktamsis-yk.com/" target="_blank" rel="noopener" class="link-card danger important-link">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE7IfzBiSI_XC4sD09WNm0fDiHdbcX2SFJnzl1kqHtI1cU4g/viewform?usp=send_form" target="_blank" rel="noopener" class="link-card danger important-link">
           <span class="link-icon">🚨</span>
 
           <div class="flex flex-col text-left">
             <span class="link-label">Pendaftaran SPMB</span>
           </div>
-
-
-
           <!-- efek glow -->
           <span class="pulse-ring"></span>
         </a>
